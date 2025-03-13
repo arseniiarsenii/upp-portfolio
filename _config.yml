@@ -1,0 +1,14 @@
+title: Управление программными проектами
+description: Портфолио по дисциплине "Управление программными проектами"
+author: Величко Арсений
+theme: jekyll-theme-minimal
+markdown: kramdown
+include:
+  - "*.md"
+  - "**/*.md"
+defaults:
+  -
+    scope:
+      path: "" # all files
+    values:
+      layout: "default"
