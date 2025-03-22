@@ -1,0 +1,34 @@
+title: Управление программными проектами
+description: Портфолио по дисциплине "Управление программными проектами"
+author: Величко Арсений
+baseurl: "/upp-portfolio"
+url: "https://github.com/arseniiarsenii"
+remote_theme: zendesk/jekyll-theme-zendesk-garden@main
+markdown: GFM
+plugins:
+  - jekyll-relative-links
+relative_links:
+  enabled: true
+  collections: true
+include:
+  - "*.md"
+  - "**/*.md"
+defaults:
+  -
+    scope:
+      path: "" # all files
+    values:
+      layout: "default"
+sidebar:
+  - label: Лабораторные работы
+    children:
+      - lr-1
+      - lr-2
+      - lr-3
+      - lr-4
+      - lr-5
+  - label: Самостоятельные работы
+    children:
+      - sr-1
+      - sr-2
+      - sr-3
